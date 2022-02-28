@@ -22,7 +22,7 @@ body {
 }
 
 main {
-  background: url(images/background.svg) no-repeat center/cover;
+  background: url(images/images-mobile/background.svg) no-repeat center/cover;
   width: 100vw;
   min-height: 812px;
   height: 100vh;
@@ -99,18 +99,10 @@ ul {
 
 @media only screen and (min-width: 780px) {
   main {
-    background: url(images-desktop/background.svg) no-repeat center/cover;
+    background: url(images/images-desktop/background.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 812px;
     height: 100vh;
   }
 
-  .container {
-    max-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  
-    color: hsl(240, 9%, 89%);
-  }
 }
