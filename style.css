@@ -22,7 +22,7 @@ body {
 }
 
 main {
-  background: url(images/images-mobile/background.svg) no-repeat center/cover;
+  background: url(images-mobile/background.svg) no-repeat center/cover;
   width: 100vw;
   min-height: 812px;
   height: 100vh;
@@ -99,7 +99,7 @@ ul {
 
 @media only screen and (min-width: 780px) {
   main {
-    background: url(images/images-desktop/background.svg) no-repeat center/cover;
+    background: url(images-desktop/background.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 812px;
     height: 100vh;
